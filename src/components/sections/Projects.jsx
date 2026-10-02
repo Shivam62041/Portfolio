@@ -16,7 +16,7 @@ const projects = [
     description: 'Reached 87% forecast accuracy on 50,000+ records by building Linear Regression and ARIMA models in Python and Pandas. Shared results through 3 interactive Power BI dashboards.',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     tags: ['Python', 'ARIMA', 'Pandas', 'Power BI'],
-    github: '#',
+    github: 'https://github.com/Shivam62041/indias-energy-crisis',
     demo: '#'
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     description: 'Secured 12+ REST endpoints with zero unauthorized access using JWT and RBAC. Delivered 8+ user flows across dual-role dashboards. Kept API response under 150 ms and implemented CI/CD with GitHub Actions.',
     image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     tags: ['React', 'Spring Boot', 'MySQL', 'JWT', 'CI/CD'],
-    github: '#',
+    github: 'https://github.com/Shivam62041',
     demo: '#'
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description: 'Enabled daily logging of 10+ metric types (steps, calories, sleep) by designing a normalized MySQL schema. Delivered 7-day and 30-day trend views using Recharts components with client-server payload validation.',
     image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     tags: ['Spring Boot', 'Hibernate', 'React', 'Recharts'],
-    github: '#',
+    github: 'https://github.com/Shivam62041/HealthTrack-Pro',
     demo: '#'
   }
 ];
