@@ -30,7 +30,7 @@ const projects = [
   {
     title: 'Health Tracker Web App',
     description: 'Enabled daily logging of 10+ metric types (steps, calories, sleep) by designing a normalized MySQL schema. Delivered 7-day and 30-day trend views using Recharts components with client-server payload validation.',
-    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1526506471676-e91024524240?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     tags: ['Spring Boot', 'Hibernate', 'React', 'Recharts'],
     github: '#',
     demo: '#'
