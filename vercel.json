@@ -1,0 +1,4 @@
+{
+  "name": "shivam-portfolio",
+  "installCommand": "npm install --ignore-scripts"
+}

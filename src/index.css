@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark text-white font-sans antialiased overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-glass backdrop-blur-md border border-white/10 shadow-glass rounded-2xl;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 rounded-full font-medium transition-all duration-300
+           bg-primary/10 text-primary border border-primary/50
+           hover:bg-primary hover:text-dark hover:shadow-neon-primary;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 rounded-full font-medium transition-all duration-300
+           bg-secondary/10 text-secondary border border-secondary/50
+           hover:bg-secondary hover:text-white hover:shadow-neon-secondary;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f0ff;
+}
+
+/* Selection */
+::selection {
+  background: rgba(0, 240, 255, 0.3);
+  color: #fff;
+}
